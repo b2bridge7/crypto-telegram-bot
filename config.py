@@ -1,2 +1,3 @@
-TELEGRAM_BOT_TOKEN = "8204992446:AAFN2sneTbmES6NuSo-h_N-62DuU3be8G8s"
+import os
+TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
 BINANCE_API_URL = "https://api.binance.com"
